@@ -43,15 +43,38 @@ table {
 	border-spacing: 0;
 }
 
-h3 {
+h1, h3 {
   font-weight: 600;
   margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
   font-size: 1.5rem;
+}
+
+.title {
+  margin: 4rem 0;
+}
+
+.subtitle {
+  color: #363636;
 }
 
 .container {
   padding: 1rem;
   max-width: 720px;
+  margin: auto;
+}
+
+.demo {
+  display: flex;
+}
+
+.demo > :first-child {
   margin: auto;
 }
 
