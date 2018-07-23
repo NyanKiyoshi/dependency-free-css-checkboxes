@@ -1,0 +1,26 @@
+{
+  "name": "dependency-free-css-checkboxes",
+  "version": "1.0.0",
+  "description": "",
+  "style": "dist/css/checkboxes.css",
+  "sass": "src/scss/main.scss",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "node-sass-tilde-importer": "^1.0.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "watch:css": "npm run build:css && npm run build:css -- --watch",
+    "build:css": "node-sass --importer=node_modules/node-sass-tilde-importer src/main.scss dist/checkboxes.css",
+    "build:css-min": "cssnano dist/checkboxes.css dist/checkboxes.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NyanKiyoshi/dependency-free-css-checkboxes.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/NyanKiyoshi/dependency-free-css-checkboxes"
+  },
+  "homepage": "https://github.com/NyanKiyoshi/dependency-free-css-checkboxes"
+}
