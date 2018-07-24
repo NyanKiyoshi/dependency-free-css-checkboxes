@@ -78,6 +78,10 @@ h3 {
   margin: auto;
 }
 
+.demo .s-checkbox {
+  margin: .3rem 0;
+}
+
 hr {
   background: none;
   border: 1px solid #EEE;
